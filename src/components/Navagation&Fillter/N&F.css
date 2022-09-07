@@ -1,0 +1,57 @@
+
+.backNF{
+    position: absolute;
+    width: 375px;
+    height: 5px;
+    left: 10px;
+    top: 55px;
+}
+@media screen and (min-width: 1024px)  {
+    .backNF{
+        left: 285px;
+    }
+}
+
+.latest{
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    left: 15px;
+    top: 20px;
+}
+
+.popular{
+    position: absolute;
+    width: 75px;
+    height: 21px;
+    left: 105px;
+    top: 20px;
+}
+
+.filter{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 337px;
+    top: 20px;
+}
+.filter:hover{
+    cursor: pointer;
+}
+
+.selector{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.6px;
+    line-height: 21px;
+}
+
+.activate{
+    color: #E4871B;
+}
+
+.selector:hover{
+    color: #49494F;
+    cursor: pointer;
+}
