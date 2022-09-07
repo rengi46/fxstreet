@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./N&F.css"
+import "./NF.css"
 import Filter from "../../assets/img/Filter.png"
 
 export const NavAndFilter = ({actived , setActived,setModal,modal}) => {

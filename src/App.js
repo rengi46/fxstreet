@@ -2,7 +2,7 @@ import {useCallback,useEffect, useState} from 'react'
 import styled from 'styled-components/macro';
 
 import { NavTopbar } from './components/NavBar/NavTopbar'
-import { NavAndFilter } from './components/Navagation&Fillter/N&F';
+import { NavAndFilter } from './components/Navagation&Fillter/NF';
 import { Post } from './components/Post/post';
 import {ListaPosts} from './components/listPosts/ListaPosts'
 import { getData } from "./services/callAPI";
